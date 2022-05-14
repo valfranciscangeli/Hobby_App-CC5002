@@ -46,9 +46,7 @@ button {
 table,
 th,
 td {
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+    border: 1px solid black;
     background-color: rgb(243, 231, 215);
     text-align: center;
 }

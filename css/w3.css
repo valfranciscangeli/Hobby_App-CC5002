@@ -69,8 +69,7 @@ a:hover {
 
 abbr[title] {
     border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
+    text-decoration: underline dotted;
 }
 
 b,
@@ -1013,7 +1012,7 @@ a {
 .w3-display-left {
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 0;
     transform: translate(0%, -50%);
     -ms-transform: translate(-0%, -50%)
 }
@@ -1021,7 +1020,7 @@ a {
 .w3-display-right {
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 0;
     transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%)
 }
@@ -1105,7 +1104,7 @@ a {
 
 .w3-code,
 .w3-codespan {
-    font-family: Consolas, "courier new";
+    font-family: Consolas, "courier new", serif;
     font-size: 16px
 }
 

@@ -18,3 +18,12 @@ Para CC5002- Otoño 2022 */
 .w3-section h3 {
     text-align: center;
 }
+
+.w3-section ul {
+    text-align: center;
+    font-style: oblique;
+}
+
+.w3-section li {
+    text-align: center;
+}
