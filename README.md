@@ -18,4 +18,4 @@
 - Se utilizan archivos CSS de fuentes externas. Ahora disponibles en el folder css para solucionar la visualización en navegadores como Edge y Explorer.
 
 
-- Ver este proyecto en la web: http://anakena.dcc.uchile.cl/~vfrancis/CC5002/tarea1/portada.html
+- Ver este proyecto en la web: http://anakena.dcc.uchile.cl/~vvallejo/CC5002/tarea1/portada.html
