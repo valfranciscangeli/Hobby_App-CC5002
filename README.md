@@ -1,21 +1,18 @@
-# Tarea-1
+# Trabajo para CC5002 Otoño 2022
+## Por Valeria Franciscangeli
+- vvfranciscangeli@gmail.com
+- https://github.com/valfranciscangeli/Tarea_2_DesarrolloWeb.git
 
-- Trabajo realizado por Valeria Vallejos Franciscangeli para CC5002 en Otoño 2022.
-- Referencias del trabajo: 
-    - Auxiliar 2.
-    - https://www.w3schools.com
-    - https://www.lawebdelprogramador.com
-    - https://stackoverflow.com
-    - https://www.geeksforgeeks.org
-    - https://developer.mozilla.org
-    - https://www.chartjs.org
+En esta carpeta se encuentra la version 'tarea2' que corresponde a los archivos necesarios para correr la aplicación web de forma local y la version 'tarea2-anakena' que corresponde a todos los archivos que se subieron a anakena para el deploy de la tarea.
 
-
-- Para ver el progreso del proyecto, ir a: https://github.com/valfranciscangeli/Tarea-1.git
-
-- El proyecto utiliza validación del lado del cliente a través de JavaScript sobre los datos recibidos por el formulario. 
-- Se utilizaron ideas de diseños de https://www.w3schools.com/w3css/tryw3css_templates_teal.htm
-- Se utilizan archivos CSS de fuentes externas. Ahora disponibles en el folder css para solucionar la visualización en navegadores como Edge y Explorer.
+A considerar: 
+- Algunos archivos debieron ser modificados para subir a anakena. 
+- Las credenciales para la base de datos difieren entre las 2 versiones, al igual que los archivos .sql para crear las bases de datos.
+- Para anakena se utilizó la base de datos n°79 (cc500279_db).
+- Los nombres de las subcarpetas de cada versión son autoexplicativos.
+- Para ver el listado de actividades en ambas versiones es necesario que exista al menos 1 actividad guardada previamente en la base de datos. (En el caso local, se suguiere ingresar actividad, fotos y contactos directamente en myphpadmin o ingresar directamente a formulario.py la primera vez. En Anakena ya se encuentran datos guardados en la bd, por lo que no es necesario este paso.)
+- Se realiza doble validación de los datos con JavaScript y Python CGI. 
+- Si se recibe un formulario de manera correcta, aparece una pagína con un mensaje de éxito y que redirige al usuario a la portada en 2 segundos. 
 
 
-- Ver este proyecto en la web: http://anakena.dcc.uchile.cl/~vvallejo/CC5002/tarea1/portada.html
+ Home page en anakena de la tarea 2: https://anakena.dcc.uchile.cl/~vfrancis/ 

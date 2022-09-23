@@ -15,15 +15,16 @@ Para CC5002- Otoño 2022 */
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {1}
 
-    <script src="js/form-actividades.js"></script>
-    <link rel="stylesheet" href="css/style-respuesta-recibida.css">
+    <script src="../js/form-actividades.js"></script>
+    <link rel="stylesheet" href="../css/style-respuesta-recibida.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <title>HobbyApp - Formulario Recibido</title>
-    <link rel="icon" href="img/icono-nf2.png" type="image/icon"> <!-- icono-->
+    <link rel="icon" href="../img/icono-nf2.png" type="image/icon"> <!-- icono-->
 </head>
 
 <body>
@@ -32,10 +33,10 @@ Para CC5002- Otoño 2022 */
 
     <!--- links -->
     <div class="w3-bar w3-theme-light">
-        <a href="portada.html" class="w3-bar-item w3-button w3-padding-16">Inicio</a>
-        <a href="form-actividades.html" class="w3-bar-item w3-button w3-padding-16">Informar actividad</a>
-        <a href=listado-actividades.html class="w3-bar-item w3-button w3-padding-16">Ver listado de Actividades</a>
-        <a href=estadisticas.html class="w3-bar-item w3-button w3-padding-16">Estadísticas</a>
+        <a href="../cgi-bin/portada.py" class="w3-bar-item w3-button w3-padding-16">Inicio</a>
+        <a href="../cgi-bin/formulario.py" class="w3-bar-item w3-button w3-padding-16">Informar actividad</a>
+        <a href=../cgi-bin/listado.py class="w3-bar-item w3-button w3-padding-16">Ver listado de Actividades</a>
+        <a href=../estadisticas.html class="w3-bar-item w3-button w3-padding-16">Estadísticas</a>
     </div>
 
 
@@ -52,9 +53,7 @@ Para CC5002- Otoño 2022 */
     <br> <br>
     <div class="w3-container m2 w3-light-blue">
         <div class="w3-section">
-            <h1>¡Tu formulario ha sido recibido!</h1>
-            <h2>Gracias por agregar tu actividad.</h2>
-            <h3>HobbyApp te desea mucho éxito.</h3>
+            {0}
         </div>
     </div>
 
@@ -62,8 +61,16 @@ Para CC5002- Otoño 2022 */
 
     <!-- ########################################### -->
     <!-- Footer -->
+    <!-- Footer -->
     <footer class="w3-container w3-theme-dark w3-padding-16">
-        <a href="portada.html" target="_self">Volver al Inicio</a>
+        <h3>HobbyApp - 2022</h3>
+        <p>Plantillas de <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        <a href="./portada.py" class='w3-bar-item w3-button w3-theme w3-hover-theme' style="text-align: center;">Home</a>
+        <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-theme-light w3-padding">Go To Top</span> 
+            <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
     </footer>
 
 
